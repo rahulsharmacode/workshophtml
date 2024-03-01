@@ -1,0 +1,60 @@
+:root {
+  --col1: pink;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 7px gray;
+  padding: 1rem;
+}
+.nav .logobox {
+  background-color: red;
+}
+.nav .logobox h3 {
+  color: var(--col1);
+}
+
+.nav_link ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.nav div h3 {
+  margin-left: 3rem;
+  font-size: 3rem;
+}
+
+.nav_btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.nav_btn p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav_btn button {
+  background-color: rgba(9, 190, 245, 0.578);
+  color: white;
+  padding: 2px;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+
+/* body */
+.body_head h1 {
+  font-size: 6rem;
+  margin-left: 25rem;
+  margin-right: 20rem;
+  margin-top: 10rem;
+  color: rgb(12, 53, 53);
+}/*# sourceMappingURL=main.css.map */
